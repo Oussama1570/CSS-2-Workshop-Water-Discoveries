@@ -1,0 +1,97 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: smaller;
+
+
+}
+
+nav
+{display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(52, 141, 141);
+}
+
+ul {
+    display: flex;
+    
+}
+
+li {
+    list-style: none;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+}
+
+.Logo { 
+    padding: 1rem;
+
+}
+
+.Portfolio
+{
+    display: flex;
+    margin-top: 80px;
+}
+
+.Portfolio img {
+
+    width: 800px; 
+    height: 400px; 
+    margin-top: 70px; 
+    margin-left: 150px;
+    margin-right: 50px; 
+}
+
+.Port-Text {
+     text-align: center;
+     margin-left: 150px;
+     margin-top: 150px;
+}
+
+.Port-text h2 {
+ font-weight: bold; 
+   
+}
+
+.Intro {
+    background-color: azure;
+    padding: 3%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    
+    
+}
+
+.Intro h2  {
+    text-align: center;
+    font-weight: bold;
+    letter letter-spacing: 3px;
+}
+
+.Gallary {
+    display: flex;
+    margin: 5%;
+    align-items: center;
+justify-content: space-between;
+}
+
+.Gallary img {
+    margin: left;
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    background-color: beige;
+    color: rgb(46, 7, 61); 
+    text-align: center;
+    padding: 3%;
+    justify-content: center;
+}
